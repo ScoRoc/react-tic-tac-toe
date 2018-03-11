@@ -4,7 +4,7 @@ import './index.css';
 
 function Square(props) {
   let bg = {
-    backgroundColor: 'lightgreen'
+    backgroundColor: 'transparent'
   }
   return (
     <button style={bg} className="square" onClick={props.onClick}>
