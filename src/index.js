@@ -120,7 +120,6 @@ class Game extends React.Component {
       return (
         <li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
-          {/* <b> move at col: {this.state.history[move].historyCol}, row: {this.state.history[move].historyRow}</b> */}
           {rowColText}
         </li>
       );
